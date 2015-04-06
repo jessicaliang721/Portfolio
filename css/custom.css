@@ -1,0 +1,74 @@
+body
+{
+	padding-top: 50px;
+}
+
+h1
+{
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 38px;
+}
+
+.main {
+  padding: 30px 20px 100px 20px;
+  max-width: 1580px;
+  margin: 0 auto;
+}
+
+.main > header h1 {
+  font-size: 20px;
+  line-height: 38px;
+  margin: 0;
+  font-weight: 400;
+  color: #333;
+  float: left;
+  text-transform: uppercase;
+}
+
+.bg-primary {
+  color: #777;
+  background-color: #EFEFEF;
+  padding-top: 7px;
+
+}
+
+.contentspace
+{
+	padding-bottom: 50px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #777;
+}
+
+.center{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none;
+  background-repeat: repeat-x;
+}
+
+.carousel-control.left {
+  background-image: none;
+  background-repeat: repeat-x;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
